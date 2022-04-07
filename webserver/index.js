@@ -83,7 +83,7 @@ const server = http.createServer((request, response) => {
       response.end(); // untuk mengakhiri proses respons
     });
   } else if (requestUrl === "/tampilan") {
-    fs.readFile("./data-json.json", null, (error, data) => {
+    fs.readFile("./data.json", null, (error, data) => {
       if (error) {
         response.writeHead(404);
         response.write("Not Found");

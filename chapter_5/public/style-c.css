@@ -1,0 +1,243 @@
+body {
+  background-color: #9c835f;
+}
+
+#overlay {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.overlay-content {
+  text-align: center;
+  width: 600px;
+}
+
+.overlay-content h1 {
+  color: #77287d;
+  font-size: 48px;
+}
+
+.overlay-content button {
+  background-color: transparent;
+  border: 3px solid #77287d;
+  border-radius: 8px;
+  color: #77287da8;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 12px 24px;
+  transition: all 0.3s ease-in-out;
+}
+
+.overlay-content button:hover {
+  background-color: #9c835f;
+  color: #fff;
+}
+
+.logo {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  left: 119px;
+  top: 27px;
+}
+
+.judul-utama {
+  position: absolute;
+  width: 410px;
+  height: 62px;
+  left: 218px;
+  top: 0px;
+}
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 49px;
+
+  color: #f9b23d;
+}
+
+a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.judul-player {
+  position: absolute;
+  width: 299px;
+  height: 94px;
+  left: 296px;
+  top: 162px;
+}
+
+.gambar-batu {
+  position: absolute;
+  width: 128px;
+  height: 92px;
+  left: 335px;
+  top: 267px;
+}
+
+.gambar-batu-player-bayangan {
+  background: #c4c4c4;
+  border-radius: 30px;
+}
+
+.gambar-batu:hover {
+  background: #c4c4c4;
+  border-radius: 30px;
+}
+
+.gambar-kertas {
+  position: absolute;
+  width: 115px;
+  height: 150px;
+  left: 335px;
+  top: 440px;
+}
+
+.gambar-kertas-player-bayangan {
+  background: #c4c4c4;
+  border-radius: 30px;
+}
+.gambar-kertas:hover {
+  background: #c4c4c4;
+  border-radius: 30px;
+}
+
+.gambar-gunting {
+  position: absolute;
+  width: 134px;
+  height: 160px;
+  left: 335px;
+  top: 671px;
+}
+
+.gambar-gunting-player-bayangan {
+  background: #c4c4c4;
+  border-radius: 30px;
+}
+
+.gambar-gunting:hover {
+  background: #c4c4c4;
+  border-radius: 30px;
+}
+
+#game-control .match {
+  position: absolute;
+  width: 296px;
+  height: 186px;
+  left: 529px;
+  top: 319px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 144px;
+  line-height: 196px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #bd0000;
+}
+
+.judul-com {
+  position: absolute;
+  width: 299px;
+  height: 94px;
+  left: 865px;
+  top: 162px;
+}
+
+.gambar-batu-com {
+  position: absolute;
+  width: 128px;
+  height: 92px;
+  left: 855px;
+  top: 267px;
+}
+
+.gambar-batu-com-bayangan {
+  background: #c4c4c4;
+  border-radius: 30px;
+}
+
+.gambar-kertas-com {
+  position: absolute;
+  width: 115px;
+  height: 150px;
+  left: 855px;
+  top: 440px;
+}
+
+.gambar-kertas-com-bayangan {
+  background: #c4c4c4;
+  border-radius: 30px;
+}
+
+.gambar-gunting-com {
+  position: absolute;
+  width: 134px;
+  height: 160px;
+  left: 855px;
+  top: 671px;
+}
+
+.gambar-gunting-com-bayangan {
+  background: #c4c4c4;
+  border-radius: 30px;
+}
+
+.gambar-refresh {
+  position: absolute;
+  width: 77px;
+  height: 71px;
+  left: 654px;
+  top: 839px;
+}
+
+#ractangle {
+  position: absolute;
+  width: 271.11px;
+  height: 166.93px;
+  left: 530px;
+  top: 459.89px;
+
+  background: #4c9654;
+  border-radius: 10px;
+  transform: rotate(-28.87deg);
+}
+
+.style-win {
+  position: relative;
+  width: 296px;
+  height: 250px;
+  left: 50px;
+  top: 45.37px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  transform: rotate(-30.98deg);
+}

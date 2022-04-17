@@ -1,4 +1,5 @@
 const express = require("express");
+const alert = require("alert");
 
 const path = require("path");
 let errors = [];
@@ -65,14 +66,12 @@ app.post("/login", (req, res) => {
   const passwordData = users.map((e) => e.password);
 
   if (email == emailData && password == passwordData) {
-    console.log("login berhasil");
+    alert("login berhasil");
     res.redirect("/");
   } else {
-    console.log("salah nih email atau passwordnya");
+    alert("salah nih email atau passwordnya");
     res.redirect("/login");
   }
-
-  console.log(emailData);
 });
 
 app.listen(port, () => {
